@@ -1,0 +1,26 @@
+
+{
+  "data": "(cluster-member-config)=\n# Cluster member configuration\n\nEach cluster member has its own key/value configuration with the following supported namespaces:\n\n- `user` (free form key/value for user metadata)\n- `scheduler` (options related to how the member is automatically targeted by the cluster)\n\nThe following keys are currently supported:\n\n% Include content from [../config_options.txt](../config_options.txt)\n```{include} ../config_options.txt\n    :start-after: <!-- config group cluster-cluster start -->\n    :end-before: <!-- config group cluster-cluster end -->\n```\n",
+  "images": [],
+  "char_len": 571,
+  "image_count": 0,
+  "title": "Cluster Member Configuration",
+  "summary": "This section outlines the configuration settings for individual cluster members, focusing on key/value configurations within specific namespaces like 'user' for metadata and 'scheduler' for automatic targeting. This allows for detailed customization and management of cluster behavior according to the designated keys, which are listed in an external configuration file.",
+  "source": {
+    "type": "File",
+    "path": "reference/cluster_member_config.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 177446284649076813326631482505920141881,
+    "low": 58972463384554220780934543890291098171
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683344,
+  "searchable": true
+}

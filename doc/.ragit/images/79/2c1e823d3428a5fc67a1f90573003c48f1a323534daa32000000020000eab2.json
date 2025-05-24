@@ -1,0 +1,4 @@
+{
+  "extracted_text": "Your connection is not private\nAttackers might be trying to steal your information from 10.63.111.220 (for example, passwords, messages, or credit cards). Learn more\nNET::ERR_CERT_AUTHORITY_INVALID\nTo get Chrome’s highest level of security, turn on enhanced protection\nHide advanced\nBack to safety\nThis server could not prove that it is 10.63.111.220; its security certificate is not trusted by your computer’s operating system. This may be caused by a misconfiguration or an attacker intercepting your connection.\nProceed to 10.63.111.220 (unsafe)",
+  "explanation": "The image shows a browser warning indicating that the connection is not private. The warning is triggered because the security certificate from the server 10.63.111.220 is not trusted. This could be due to a misconfiguration or a potential attack. The user is advised to return to safety, although there is an option to proceed to the site unsafely."
+}

@@ -1,0 +1,31 @@
+
+{
+  "data": "img_2e321e0dedb851da83517814041b84c8ce0563b508fea6bf000000020004eb34",
+  "images": [
+    {
+      "high": 61404712224857869991556426608276112584,
+      "low": 273848950917617255226461132917123115828
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Canonical LXD Instance Console View",
+  "summary": "The screenshot shows the console of a Canonical LXD instance named 'absolute-sponge' which is currently running. It displays a graphical representation, likely a desktop environment or application, with a constellation-like design. The interface includes options to switch between a graphic or text console and provides other management tabs such as Overview, Configuration, and Logs.",
+  "source": {
+    "type": "File",
+    "path": "images/ui_console.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 236446817794828614013194807202109805511,
+    "low": 60995951669342648990773144635119239236
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684211,
+  "searchable": true
+}

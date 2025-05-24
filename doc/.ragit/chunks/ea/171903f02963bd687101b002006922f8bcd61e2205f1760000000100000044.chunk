@@ -1,0 +1,31 @@
+
+{
+  "data": "img_7a73fb96c91476a947320ae9f56d5db23f099d101dfbe1cd000000020000c0ba",
+  "images": [
+    {
+      "high": 162768032455757361232830071621441904050,
+      "low": 83791280021414458961666040184870846650
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Dashboard Management Interface",
+  "summary": "A user interface for creating and managing dashboards, including options to browse, create new dashboards or folders, and import existing ones. Features a search bar, tagging, and sorting options. No dashboards are currently displayed.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_dashboard_import.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 311159281213667633453469913606950775074,
+    "low": 330629037587093416189770714546547195972
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684132,
+  "searchable": true
+}

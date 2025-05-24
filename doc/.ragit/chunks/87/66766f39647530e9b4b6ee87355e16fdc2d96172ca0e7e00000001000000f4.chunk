@@ -1,0 +1,26 @@
+
+{
+  "data": "# How to contribute to Incus\n\n% Include content from [../../CONTRIBUTING.md](../../CONTRIBUTING.md)\n```{include} ../../CONTRIBUTING.md\n    :start-after: <!-- Include start contributing -->\n    :end-before: <!-- Include end contributing -->\n```\n",
+  "images": [],
+  "char_len": 244,
+  "image_count": 0,
+  "title": "Guidelines for Contributing to Incus",
+  "summary": "The section outlines the process and guidelines for contributing to the Incus project. By following the instructions specified in the CONTRIBUTING.md file, contributors can learn how to effectively engage and provide valuable input to the project's development. This includes understanding the contribution workflow, adhering to coding standards, and knowing how to submit changes or report issues.",
+  "source": {
+    "type": "File",
+    "path": "contributing/introduction.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 179977795846955556801516191586020843030,
+    "low": 337306397527680791273336852060735275252
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686145,
+  "searchable": true
+}

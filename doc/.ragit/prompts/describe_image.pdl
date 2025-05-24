@@ -1,0 +1,17 @@
+<|schema|>
+
+{ extracted_text: str, explanation: str }
+
+<|system|>
+
+Your job is to generate a description for a given image. You have to create two fields: "extracted_text" and "explanation".
+
+"extracted_text" contains all the texts you can see in the image. You have to include ALL the texts in the image as-is.
+
+"explanation" is a few sentences long explanation of the image.
+
+Make sure to give your response in a valid json format. The json is an object containing 2 keys: "extracted_text" and "explanation". Both fields have string values.
+
+<|user|>
+
+<|raw_media({{image_type}}:{{image_bytes|safe}})|>

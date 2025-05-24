@@ -1,0 +1,25 @@
+<|schema|>
+
+[int { min: 1, max: {{max_index}} }] { len_max: {{max_retrieval}} }
+
+<|system|>
+
+Your job is to select documents that are relevant to user's query. You'll be given a query and titles and summaries of documents. You have to choose documents that look helpful to answer the query. You can select at most {{max_retrieval}} documents. If there's no document that looks relevant, you don't have to choose any.
+
+Think as much as possible before you answer. Then give me the list of the indexes of the documents. The list must be in a json format, an array containing the numbers.
+
+<|user|>
+
+Give me the indexes of the documents that are relevant to the user's query. Below is the query and the documents. The query is wrapped in triple quotation marks.
+
+{{entries|safe}}
+
+Query
+
+'''
+{{query|safe}}
+'''
+
+<|assistant|>
+
+{# TODO: how about adding a self-refinement here? #}

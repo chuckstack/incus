@@ -1,0 +1,31 @@
+
+{
+  "data": "img_6c34cfd1a184810e2a3cedd7084c5ae535d4d40a19477e7e0000000200002739",
+  "images": [
+    {
+      "high": 143830838048875920923319025739024325349,
+      "low": 71554151381551080339116352430179100473
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "untitled",
+  "summary": "img_6c34cfd1a184810e2a3cedd7084c5ae535d4d40a19477e7e0000000200002739",
+  "source": {
+    "type": "File",
+    "path": ".sphinx/_static/tag.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 319714706645747130679623349599825844059,
+    "low": 239316790985526227578976115815899725892
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686220,
+  "searchable": true
+}

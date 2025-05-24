@@ -1,0 +1,26 @@
+
+{
+  "data": "(devices-pci)=\n# Type: `pci`\n\n```{note}\nThe `pci` device type is supported for VMs.\nIt does not support hotplugging.\n```\n\nPCI devices are used to pass raw PCI devices from the host into a virtual machine.\n\nThey are mainly intended to be used for specialized single-function PCI cards like sound cards or video capture cards.\nIn theory, you can also use them for more advanced PCI devices like GPUs or network cards, but it's usually more convenient to use the specific device types that Incus provides for these devices ([`gpu` device](devices-gpu) or [`nic` device](devices-nic)).\n\n## Device options\n\n`pci` devices have the following device options:\n\n% Include content from [config_options.txt](../config_options.txt)\n```{include} ../config_options.txt\n    :start-after: <!-- config group devices-pci start -->\n    :end-before: <!-- config group devices-pci end -->\n```\n",
+  "images": [],
+  "char_len": 871,
+  "image_count": 0,
+  "title": "PCI Device Configuration for Virtual Machines",
+  "summary": "The 'pci' device type is used to pass raw PCI devices from a host to a virtual machine and is suitable for specialized single-function cards like sound or video capture cards. While it can be used for GPUs or network cards, it's generally better to use dedicated device types like 'gpu' or 'nic' for these. PCI devices for VMs do not allow hotplugging and have specific configuration options outlined in an external file.",
+  "source": {
+    "type": "File",
+    "path": "reference/devices_pci.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 218686837313679827631873895858196642657,
+    "low": 320447982675344798592025586539165647719
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683292,
+  "searchable": true
+}

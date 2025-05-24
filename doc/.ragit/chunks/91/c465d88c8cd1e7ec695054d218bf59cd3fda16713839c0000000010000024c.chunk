@@ -1,0 +1,26 @@
+
+{
+  "data": "jobs: 2\nmatrix:\n- name: Markdown files\n  aspell:\n    lang: en\n    d: en_US\n  dictionary:\n    wordlists:\n    - doc/.wordlist.txt\n    output: doc/.sphinx/.wordlist.dic\n  sources:\n  - doc/html/**/*.html|!doc/html/config-options/index.html|!doc/html/reference/manpages/**/*.html\n  pipeline:\n  - pyspelling.filters.html:\n      comments: false\n      attributes:\n      - title\n      - alt\n      ignores:\n      - code\n      - pre\n      - spellexception\n      - link\n      - title\n      - div.relatedlinks\n      - span.guilabel\n      - div.visually-hidden\n      - img\n      - a.p-navigation__link\n",
+  "images": [],
+  "char_len": 588,
+  "image_count": 0,
+  "title": "Configuring Spell Check for Markdown Files",
+  "summary": "The chunk outlines a job configuration for spell checking Markdown files using the aspell tool with specific language settings and dictionaries. It specifies the target sources and uses a pipeline of filters for processing HTML content. The pipeline is designed to ignore certain HTML elements to focus on relevant text areas for spell checking.",
+  "source": {
+    "type": "File",
+    "path": ".sphinx/spellingcheck.yaml",
+    "index": 0
+  },
+  "uid": {
+    "high": 193757815253236841928616133778472484697,
+    "low": 272823277181348398136220513910948627020
+  },
+  "build_info": {
+    "file_reader_key": "plain_text_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686252,
+  "searchable": true
+}

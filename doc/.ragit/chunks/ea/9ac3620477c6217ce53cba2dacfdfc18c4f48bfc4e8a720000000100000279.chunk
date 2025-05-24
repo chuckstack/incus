@@ -1,0 +1,26 @@
+
+{
+  "data": "# General\n\nSee the following sections for information on how to get started with Incus:\n\n```{toctree}\n:maxdepth: 1\n\nContainers and VMs </explanation/containers_and_vms>\nInstall Incus </installing>\nInitialize Incus </howto/initialize>\nGet support </support>\nFrequently asked </faq>\n```\n\nYou can find a series of demos and tutorials on YouTube:\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/videoseries?list=PLVhiK8li7a-5aRPwUHHfpfMu_wWCava4_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n",
+  "images": [],
+  "char_len": 633,
+  "image_count": 0,
+  "title": "Getting Started with Incus",
+  "summary": "This section provides guidance on getting started with Incus, including links to detailed information on containers and VMs, installation, initialization, support, and FAQs. Additionally, it offers access to a series of demos and tutorials available on YouTube to further assist users.",
+  "source": {
+    "type": "File",
+    "path": "general.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 311842927565500054046047652391162805756,
+    "low": 32924122081853860133622074171673543289
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683981,
+  "searchable": true
+}

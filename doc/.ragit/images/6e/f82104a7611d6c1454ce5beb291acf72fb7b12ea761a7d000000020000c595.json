@@ -1,0 +1,4 @@
+{
+  "extracted_text": "Settings\nAlerting supported\nDefault\nData Sources / Prometheus\nType: Prometheus\nName\nPrometheus\nURL\nhttp://localhost:9090/\nAllowed cookies\nNew tag (enter key to add)\nAdd\nTimeout\nTimeout in seconds\nAuth\nBasic auth\nWith Credentials",
+  "explanation": "The image shows a configuration screen for a data source in a monitoring tool, specifically configuring Prometheus. It includes settings for the name 'Prometheus', URL 'http://localhost:9090/', with options for adding allowed cookies and setting a timeout. There is also a section for authentication settings, including basic auth and credential options."
+}

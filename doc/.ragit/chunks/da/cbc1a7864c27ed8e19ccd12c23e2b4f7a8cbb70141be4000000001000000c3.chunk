@@ -1,0 +1,26 @@
+
+{
+  "data": "# Contributing to Incus\n\n```{toctree}\n:maxdepth: 1\n\nIntroduction </contributing/introduction>\nContribute to the code </contributing/code>\nContribute to the documentation </contributing/docs>\n```\n",
+  "images": [],
+  "char_len": 195,
+  "image_count": 0,
+  "title": "Contributing to Incus: Overview and Sections",
+  "summary": "This section provides an outline of how to contribute to the Incus project. It contains links to guidance on contributing to the code, documentation, and a general introduction to contributions. Each part has its own dedicated section to help potential contributors understand how to get involved.",
+  "source": {
+    "type": "File",
+    "path": "contributing.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 290829667121113933188919398675574416052,
+    "low": 329195752659400316666622970102485614787
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683245,
+  "searchable": true
+}

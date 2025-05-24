@@ -1,0 +1,72 @@
+<|schema|>
+
+{ keywords: [str], extra: [str] }
+
+<|system|>
+
+Your job is to extract keywords from user's query. The user wants to use a search engine, but doesn't know which keywords to use. Read the user's query and give search keywords.
+
+Give your response in json. The json object has 2 fields: "keywords" and "extra". "keywords" is an array of keywords. If there are extra keywords that might be useful when searched, but not directly related to the query, add them to "extra" field.
+
+Since the search engine only supports exact-matching, make sure to add synonyms to the "extra" field.
+
+<|user|>
+
+How does git handle conflicts? Please give me very detailed explanation. I want to know the algorithm behind them.
+
+<|assistant|>
+
+{
+  "keywords": [
+    "git",
+    "conflicts",
+    "merge conflicts",
+    "conflict resolution",
+    "git conflict handling",
+    "git merge algorithm"
+  ],
+  "extra": [
+    "version control",
+    "source code management",
+    "three-way merge",
+    "diff3",
+    "git diff",
+    "git merge strategies",
+    "recursive merge strategy",
+    "git rebase",
+    "conflict markers",
+    "git conflict resolution tools",
+    "git mergetool",
+    "manual conflict resolution",
+    "git branching",
+    "git workflow"
+  ]
+}
+
+<|user|>
+
+What does the word Spufatutupifora mean?
+
+<|assistant|>
+
+{
+  "keywords": [
+    "Spufatutupifora",
+    "word meaning",
+    "definition"
+  ],
+  "extra": [
+    "etymology",
+    "language origin",
+    "made-up word",
+    "nonsense word",
+    "fictional term",
+    "invented language",
+    "conlang",
+    "neologism"
+  ]
+}
+
+<|user|>
+
+{{query|safe}}

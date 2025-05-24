@@ -1,0 +1,31 @@
+
+{
+  "data": "img_792c1e823d3428a5fc67a1f90573003c48f1a323534daa32000000020000eab2",
+  "images": [
+    {
+      "high": 161065667342641231139774382278909820988,
+      "low": 96959068070953066357002135815887841970
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Connection Warning: Privacy Risk",
+  "summary": "The message alerts users that their connection is not private and warns of potential attackers attempting to steal information such as passwords and credit card details. The security certificate of the site at 10.63.111.220 is not trusted by the operating system, indicating a possible misconfiguration or an interception attempt. Users are advised to go 'Back to safety' and consider turning on enhanced protection in Chrome for better security.",
+  "source": {
+    "type": "File",
+    "path": "images/ui_security_warning.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 45217123279619859274611039482539788928,
+    "low": 165378160182569384544055113551081111620
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684046,
+  "searchable": true
+}

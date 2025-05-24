@@ -1,0 +1,26 @@
+
+{
+  "data": "(networking)=\n# Networking\n\n```{toctree}\n:maxdepth: 1\n\n/explanation/networks\nCreate and configure a network </howto/network_create>\nConfigure a network </howto/network_configure>\nConfigure network ACLs </howto/network_acls>\nConfigure network address sets </howto/network_address_sets>\nConfigure network forwards </howto/network_forwards>\nConfigure network integrations </howto/network_integrations>\nConfigure network zones </howto/network_zones>\nConfigure Incus as BGP server </howto/network_bgp>\nDisplay Incus IPAM information </howto/network_ipam>\n/reference/network_bridge\n/reference/network_ovn\n/reference/network_external\nIncrease bandwidth <howto/network_increase_bandwidth>\n```\n",
+  "images": [],
+  "char_len": 685,
+  "image_count": 0,
+  "title": "Networking Documentation Overview",
+  "summary": "This document provides an overview of networking-related topics and guides. It includes tutorials on creating and configuring networks, managing network ACLs, address sets, forwards, integrations, and zones. It also covers specialized instructions on configuring Incus as a BGP server, displaying Incus IPAM information, and increasing network bandwidth. Various references are provided for network bridges, OVN, and external networks.",
+  "source": {
+    "type": "File",
+    "path": "networks.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 21628539589149262240305997403118123736,
+    "low": 258874062237899248143157764629192508077
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683955,
+  "searchable": true
+}

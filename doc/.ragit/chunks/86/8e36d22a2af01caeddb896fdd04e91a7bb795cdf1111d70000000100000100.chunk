@@ -1,0 +1,26 @@
+
+{
+  "data": "# REST API\n\n```{toctree}\n:maxdepth: 1\n\nMain API documentation <rest-api>\nrest-api-spec\nMain API extensions <api-extensions>\nInstance API documentation <dev-incus>\nEvents API documentation <events>\nMetrics API documentation <reference/provided_metrics>\n```\n",
+  "images": [],
+  "char_len": 256,
+  "image_count": 0,
+  "title": "REST API Documentation Table of Contents",
+  "summary": "This section provides a table of contents for REST API documentation. It includes links to main API documentation, API specifications, main API extensions, instance API documentation, events API documentation, and metrics API documentation, each with a designated max depth for easy navigation.",
+  "source": {
+    "type": "File",
+    "path": "api.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 178854969490173676872060724733707046545,
+    "low": 222954496338215749881284921761244119296
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684240,
+  "searchable": true
+}

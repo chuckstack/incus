@@ -1,0 +1,26 @@
+
+{
+  "data": "(devices-none)=\n# Type: `none`\n\n```{note}\nThe `none` device type is supported for both containers and VMs.\n```\n\nA `none` device doesn't have any properties and doesn't create anything inside the instance.\n\nIts only purpose is to stop inheriting devices that come from profiles.\nTo do so, add a device with the same name as the one that you do not want to inherit, but with the device type `none`.\n\nYou can add this device either in a profile that is applied after the profile that contains the original device, or directly on the instance.\n",
+  "images": [],
+  "char_len": 540,
+  "image_count": 0,
+  "title": "None Device Type",
+  "summary": "The 'none' device type is used in containers and VMs to override or block devices from being inherited from profiles. It has no properties and doesn't create anything within the instance. To utilize it, one should add a device with the same name and assign it the type 'none', either in a subsequent profile or directly on the instance.",
+  "source": {
+    "type": "File",
+    "path": "reference/devices_none.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 195235983025996902591503636030660010026,
+    "low": 154937768446602053979241327537906778652
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683311,
+  "searchable": true
+}

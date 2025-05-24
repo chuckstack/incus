@@ -1,0 +1,31 @@
+
+{
+  "data": "img_c1f9d85d6f1e787afc57f565302538d2a39c675a5bed6aea000000020000d789",
+  "images": [
+    {
+      "high": 257838273507347110954755559715110205650,
+      "low": 217476257870046678999591724046270650249
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Adding a Data Source in Grafana",
+  "summary": "The image shows the interface for adding a data source in Grafana, where users can choose from various open-source time series databases such as Prometheus, Graphite, and InfluxDB. Each option includes a brief description and a 'Core' label.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_select_prometheus.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 143383418751068901415197733332397312718,
+    "low": 321399165510821651294571368316372254788
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684172,
+  "searchable": true
+}

@@ -1,0 +1,26 @@
+
+{
+  "data": "(images)=\n# Images\n\n```{toctree}\n:maxdepth: 1\n\nimage-handling\nUse remote images <howto/images_remote>\nManage images <howto/images_manage>\nCopy and import images <howto/images_copy>\nCreate images <howto/images_create>\nAssociate profiles <howto/images_profiles>\nreference/image_format\nreference/image_servers\n```\n",
+  "images": [],
+  "char_len": 311,
+  "image_count": 0,
+  "title": "Images Guide and Resources",
+  "summary": "This section provides documentation related to handling images, including using remote images, managing image libraries, copying and importing images, creating new images, and associating profiles with images. It also includes references for image formats and servers, helping users to effectively work with image resources.",
+  "source": {
+    "type": "File",
+    "path": "images.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 322210840269481215513295988864196477391,
+    "low": 222987543716048533425579337713729929527
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683481,
+  "searchable": true
+}

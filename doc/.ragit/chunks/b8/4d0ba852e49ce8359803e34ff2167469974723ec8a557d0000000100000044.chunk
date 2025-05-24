@@ -1,0 +1,31 @@
+
+{
+  "data": "img_6ef82104a7611d6c1454ce5beb291acf72fb7b12ea761a7d000000020000c595",
+  "images": [
+    {
+      "high": 147503438845488355220484311714265373391,
+      "low": 152837754266023096290296217803566400917
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Prometheus Data Source Configuration in Grafana",
+  "summary": "This image displays the configuration settings for a Prometheus data source in Grafana. The settings include the data source name, HTTP URL set to 'http://localhost:9090/', an option to add allowed cookies, and a timeout configuration. Authentication options such as basic authentication with credentials are also presented. Alerting is supported and enabled by default.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_configure_datasource.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 244977994525022791771380951251919443572,
+    "low": 140354419280328170682598070487017848900
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684075,
+  "searchable": true
+}

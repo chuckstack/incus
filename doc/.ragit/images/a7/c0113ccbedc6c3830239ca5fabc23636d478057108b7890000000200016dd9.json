@@ -1,0 +1,4 @@
+{
+  "extracted_text": "Instance: ansible01\nCPU Usage\nsystem\nuser\nMemory Usage\n1 GiB\n896 MiB\n768 MiB\n640 MiB\n512 MiB\n384 MiB\n256 MiB\n128 MiB\n0 B\nRAM Total\nRAM Used\nRAM Cache\nRAM Free\nSWAP Used\nRunning Processes\nDisk Space Used\n/\n07:00\n08:00\n09:00\n10:00\n11:00\n12:00\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n0%\n20%\n40%\n60%\n80%\n100%\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55",
+  "explanation": "The image shows four graphs monitoring server instance 'ansible01'. The top left graph indicates CPU usage for system and user processes, with a noticeable spike around 12:00. The top right graph displays Memory Usage, showing RAM and swap usage consistently high throughout the monitoring period, with a decrease near 12:00. The bottom left graph tracks the Running Processes, peaking similarly around 12:00. The bottom right graph depicts Disk Space Used, maintaining a steady high usage throughout the time frame."
+}

@@ -1,0 +1,31 @@
+
+{
+  "data": "img_a7c0113ccbedc6c3830239ca5fabc23636d478057108b7890000000200016dd9",
+  "images": [
+    {
+      "high": 222978345910685561661971687016860729910,
+      "low": 72881513026670435602465821165977955801
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "System Resource Monitoring for Instance ansible01",
+  "summary": "The chart includes four panels displaying system resource usage for instance ansible01 over time. CPU usage, divided into system and user components, spikes significantly around 11:00 to 12:00. Memory usage remains mostly stable with a minor uptick near the end, indicating consistent usage with occasional fluctuations. The number of running processes increases sharply at the same time as the CPU spike. Disk space usage shows no significant change, maintaining around 80% usage throughout the period.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_instances.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 199395489523331563224512902820171185126,
+    "low": 262427019844568355340004111658617143364
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684237,
+  "searchable": true
+}

@@ -1,0 +1,29 @@
+<|schema|>
+
+{ title: str, summary: str { len_min: {{min_summary_len}}, len_max: {{max_summary_len}} } }
+
+<|system|>
+
+In each turn, you'll be given a chunk of text. Your job is to title and summarize the chunk. The chunk is taken from a long, arbitrary document and is cut at an arbitrary point.
+
+Give me your response in a json object, which has 2 fields: "title" and "summary". Both have string types.
+
+Make sure to always use English, no matter what language the chunk uses.
+
+{% if previous_request %}
+
+<|user|>
+
+{{previous_request|safe}}
+
+<|assistant|>
+
+{{previous_response|safe}}
+
+{% endif %}
+
+<|user|>
+
+{{chunk|safe}}
+
+<|assistant|>

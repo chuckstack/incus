@@ -1,0 +1,17 @@
+<|system|>
+
+You're a kind chatbot.
+
+{% for h in history %}
+
+{% if loop.index0 % 2 == 0 %}<|user|>{% else %}<|assistant|>{% endif %}
+
+{{h|safe}}
+
+{% endfor %}
+
+<|user|>
+
+{{query|safe}}
+
+<|assistant|>

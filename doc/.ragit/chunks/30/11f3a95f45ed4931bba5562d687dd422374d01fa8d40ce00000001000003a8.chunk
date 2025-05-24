@@ -1,0 +1,26 @@
+
+{
+  "data": "# Support\n\n<!-- Include start release -->\n\nIncus maintains different release branches in parallel:\n\n- Long term support (LTS) releases: 6.0\n- Feature releases: Incus 6.x\n\n<!-- Include end release -->\n\nThe Incus 6.0 LTS release will be supported until June 2029.\nThe first 2 years of support will include bug and security fixes as well as minor usability improvements.\nThe remaining 3 years of support (following Incus 7.0 LTS' release) will only feature security updates.\n\nFeature releases are pushed out about monthly and contain new features as well as bugfixes.\nThe normal support length for those releases is until the next release comes out.\nSome Linux distributions might offer longer support for particular feature releases that they decided to ship.\n\n% Include content from [../README.md](../README.md)\n```{include} ../README.md\n    :start-after: <!-- Include start support -->\n    :end-before: <!-- Include end support -->\n```\n",
+  "images": [],
+  "char_len": 936,
+  "image_count": 0,
+  "title": "Incus Release and Support Strategy",
+  "summary": "This document outlines the support strategy for Incus release branches. It distinguishes between Long Term Support (LTS) releases and feature releases. The 6.0 LTS release, for example, is supported until June 2029, with varying support levels throughout. Feature releases occur approximately monthly and are generally supported until the next release. Some Linux distributions might extend support for specific feature releases.",
+  "source": {
+    "type": "File",
+    "path": "support.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 63896154888849818601287417968716185044,
+    "low": 45480890086216215918571711620116906920
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683249,
+  "searchable": true
+}

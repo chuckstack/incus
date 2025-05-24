@@ -1,0 +1,26 @@
+
+{
+  "data": "(images-profiles)=\n# How to associate profiles with an image\n\nYou can associate one or more profiles with a specific image.\nInstances that are created from the image will then automatically use the associated profiles in the order they were specified.\n\nTo associate a list of profiles with an image, use the [`incus image edit`](incus_image_edit.md) command and edit the `profiles:` section:\n\n```yaml\nprofiles:\n- default\n```\n\nMost provided images come with a profile list that includes only the `default` profile.\nTo prevent any profile (including the `default` profile) from being associated with an image, pass an empty list.\n\n```{note}\nPassing an empty list is different than passing `nil`.\nIf you pass `nil` as the profile list, only the `default` profile is associated with the image.\n```\n\nYou can override the associated profiles for an image when creating an instance by adding the `--profile` or the `--no-profiles` flag to the launch or init command.\n",
+  "images": [],
+  "char_len": 960,
+  "image_count": 0,
+  "title": "Associating Profiles with Images",
+  "summary": "To associate profiles with an image, use the 'incus image edit' command to modify the 'profiles:' section. Most images default to including only the 'default' profile. You can pass an empty list to prevent any profile from being associated, which is distinct from passing 'nil', as 'nil' results in default profile association. Profiles can be overridden for an instance with '--profile' or '--no-profiles' flags during launch or initialization.",
+  "source": {
+    "type": "File",
+    "path": "howto/images_profiles.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 79748375782614794103926080568869076917,
+    "low": 210148853519306091368717706722698855360
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684253,
+  "searchable": true
+}

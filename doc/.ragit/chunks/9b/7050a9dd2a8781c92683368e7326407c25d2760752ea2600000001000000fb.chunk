@@ -1,0 +1,26 @@
+
+{
+  "data": "(projects)=\n# Projects\n\n```{toctree}\n:maxdepth: 1\n\nexplanation/projects\nCreate and configure projects <howto/projects_create>\nWork with different projects <howto/projects_work>\nConfine projects to users <howto/projects_confine>\nreference/projects\n```\n",
+  "images": [],
+  "char_len": 251,
+  "image_count": 0,
+  "title": "Overview of Projects",
+  "summary": "This section provides a structured overview of the projects topic, including explanations and how-to guides. It covers creating and configuring projects, working with different projects, and confining projects to certain users. It also includes a reference section for detailed information.",
+  "source": {
+    "type": "File",
+    "path": "projects.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 206613512645593220007333143266586732096,
+    "low": 165020655118301933116999650175537381627
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683242,
+  "searchable": true
+}

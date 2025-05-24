@@ -1,0 +1,26 @@
+
+{
+  "data": "(howto-storage-create-instance)=\n# How to create an instance in a specific storage pool\n\nInstance storage volumes are created in the storage pool that is specified by the instance's root disk device.\nThis configuration is normally provided by the profile or profiles applied to the instance.\nSee {ref}`storage-default-pool` for detailed information.\n\nTo use a different storage pool when creating or launching an instance, add the `--storage` flag.\nThis flag overrides the root disk device from the profile.\nFor example:\n\n    incus launch <image> <instance_name> --storage <storage_pool>\n\n% Include content from [storage_move_volume.md](storage_move_volume.md)\n```{include} storage_move_volume.md\n    :start-after: (storage-move-instance)=\n```\n",
+  "images": [],
+  "char_len": 744,
+  "image_count": 0,
+  "title": "Creating an Instance in a Specific Storage Pool",
+  "summary": "This section explains how to create instance storage volumes in a designated storage pool by configuring the root disk device in the profile. Normally, instances use the storage pool defined by their applied profiles, but this can be overridden by using the `--storage` flag during the launch command. For a more detailed explanation, refer to the provided documentation links.",
+  "source": {
+    "type": "File",
+    "path": "howto/storage_create_instance.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 27741958995648490464148541875493687265,
+    "low": 209669017201822605714656537890569323240
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684256,
+  "searchable": true
+}

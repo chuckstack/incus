@@ -1,0 +1,4 @@
+{
+  "extracted_text": "Home > Dashboards > Import dashboard\nImport dashboard\nImport dashboard from file or Grafana.com\nUpload dashboard JSON file\nDrag and drop here or click to browse\nAccepted file types: .json, .txt\nImport via grafana.com\n19727\nLoad\nImport via panel json\nLoad\nCancel",
+  "explanation": "The image shows the 'Import dashboard' screen in Grafana. Users can import a dashboard by uploading a JSON file or entering an ID from Grafana.com. Files must be in .json or .txt format. There are fields to input the ID or panel JSON, with 'Load' and 'Cancel' buttons available for actions."
+}

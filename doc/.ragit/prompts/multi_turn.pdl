@@ -1,0 +1,87 @@
+<|schema|>
+
+{ is_query: boolean, in_context: boolean, query: str }
+
+<|system|>
+
+Your job is to rephrase a query in a multi-turn conversation. You'll be given a json object containing a conversation.
+
+Your response must be in a json format. The json must include 3 fields: "is_query", "in_context" and "query".
+
+If the last turn of the conversation is asking for something, that's a query. The "is_query" field must be set `true`, and you have to rewrite the query in the "query" field. Make sure that the "query" field includes all the context.
+
+The "in_context" field tells whether the last turn is related to the previous turns. If the last turn has nothing to do with the previous conversation, set the "in_context" field to `false` and the "query" field has the same value as the last turn.
+
+If the last turn of the conversation is not a query, set the "is_query" field to `false`. In this case, you don't have to care about the value of the "query" field.
+
+{# NOTE: The code doesn't care whether "in_context" is true or false, it's just for helping LLMs think. #}
+
+<|user|>
+
+[
+    "What is the capital of France?",
+    "Paris",
+    "Your answer is too short. Give me a long answer.",
+]
+
+<|assistant|>
+
+{
+    "is_query": true,
+    "in_context": true,
+    "query": "What is the capital of France? Give me a long answer."
+}
+
+<|user|>
+
+[
+    "What happens if my last commit and the remote's latest commit both modifies the same file, but in a different way? Would it break the entire repo? Or would it just ruin my local repo?",
+    "Based on the information provided and my knowledge of Git, here's the answer:\nIf your last commit and the remote's latest commit both modify the same file in different ways, it won't break or ruin the entire repository or your local repo. Instead, Git will create a merge conflict that you'll need to resolve manually. Here's what typically happens:\n1. When you try to pull or merge the remote changes, Git will detect that there are conflicting changes in the same file.\n\n2. Git will attempt to automatically merge the changes. If the changes are in different parts of the file, Git might be able to merge them without conflict.\n\n3. If the changes overlap or Git can't automatically resolve them, it will mark the file as conflicted and modify it to show both sets of changes.\n\n4. Your local repository will enter a "merging" state. The conflicted file will contain conflict markers (<<<<<<, =======, >>>>>>>) showing your local changes and the remote changes.\n\n5. Git will prevent you from committing until you resolve the conflict manually.\n\n6. You'll need to edit the file, choose which changes to keep (or how to combine them), remove the conflict markers, and then stage and commit the resolved file.\n\nThis process doesn't break or ruin the repository. It's a normal part of collaborative development that Git is designed to handle. After resolving the conflict and committing, your repository will be in a consistent state again.\n\nRemember, it's always a good practice to pull and merge changes frequently to minimize large conflicts, and to communicate with your team about who is working on which parts of the code.",
+    "What do you mean by \"resolving manually\"?",
+]
+
+<|assistant|>
+
+{
+    "is_query": true,
+    "in_context": true,
+    "query": "In Git, when there's a merge conflict between my last commit and the remote's latest commit on the same file, what does it mean to resolve the conflict manually? Can you explain the process of manual conflict resolution?"
+}
+
+<|user|>
+
+[
+    "What is kubernetes? Why do I even need it?",
+    "Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. Originally developed by Google, it is now maintained by the Cloud Native Computing Foundation. Here’s a breakdown of what Kubernetes does and why it might be useful for you:\n### What Kubernetes Does:\n\n1. **Container Orchestration:** Kubernetes manages the deployment and operation of containers across a cluster of machines, automating much of the manual processes involved.\n\n2. **Scalability:** It can automatically scale your application up and down based on the load.\n\n3. **Self-Healing:** Kubernetes monitors your apps to ensure they are running as intended. It can restart containers that fail, replace containers, and kill containers that don’t respond to user-defined health checks.\n\n### Why You Might Need Kubernetes:\n\n- **Efficiency:** If you are managing a lot of containers or microservices, Kubernetes can significantly reduce the complexity by automating many processes.\n\n- **Resilience:** It provides robust mechanisms for fault tolerance, making your applications more resilient and able to recover from failures with little to no manual intervention.\n\n- **Portability:** Kubernetes abstracts away the underlying infrastructure, allowing you to run your applications in various environments (on-premise, cloud providers, hybrid), making it easier to move applications between environments.\n\n- **Development Velocity:** By automating operations and providing a consistent environment across development, testing, and production, Kubernetes can increase development speed and reduce the time to market for new applications.\n\nIn summary, if you are running containerized applications and need efficient management, scaling, and operations across various environments, Kubernetes offers a powerful and flexible solution. However, it can be complex to set up and administer, so it's worth evaluating your specific needs and situation to determine if it's the right fit for you.",
+    "Thanks!"
+]
+
+<|assistant|>
+
+{
+    "is_query": false,
+    "in_context": false,
+    "query": ""
+}
+
+<|user|>
+
+[
+    "What are the differences between deflate and gzip?",
+    "Deflate and gzip are both data compression algorithms, but they have some differences:\n\n1. Deflate is a lossless data compression algorithm. It works by using a combination of the LZ77 and LZ78 algorithms. It identifies patterns in the data and compresses them into smaller sizes. Deflate can be used alone or in conjunction with other compression methods.\n\n2. Gzip is a file format that uses the deflate algorithm for compression. It's a commonly used format for compressing files, and it's widely supported in many applications and systems. Gzip first compresses the data using the deflate algorithm and then adds a header and a footer to the compressed data to form a single compressed file.\n\n3. Usage:\n   - Deflate: It's often used as a standalone compression method or as part of other protocols or file formats. For example, it's used in PNG image files and as a compression option in ZIP archives.\n   - Gzip: Gzip is commonly used for compressing individual files, and the compressed data is stored in a .gz file. It's also widely used in data transmission protocols such as HTTP, where it's known as HTTP compression.\n\n4. Efficiency:\n   - Deflate: It's known for providing good compression ratios, especially for small files or data with repeated patterns.\n   - Gzip: Gzip generally provides better compression ratios than deflate alone, as it includes additional optimization techniques.\n\nIn summary, deflate is an algorithm, while gzip is a file format that utilizes the deflate algorithm along with additional metadata. Gzip is more commonly used and provides better compression efficiency, while deflate is more of a basic building block used in various compression schemes.",
+    "Why is the sky blue?",
+]
+
+<|assistant|>
+
+{
+    "is_query": true,
+    "in_context": false,
+    "query": "Why is the sky blue?"
+}
+
+<|user|>
+
+{{turns|safe}}
+
+<|assistant|>

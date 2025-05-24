@@ -1,0 +1,26 @@
+
+{
+  "data": "(storage)=\n# Storage\n\n```{toctree}\n:maxdepth: 1\n\nAbout storage </explanation/storage>\nManage pools <howto/storage_pools>\nCreate an instance in a pool <howto/storage_create_instance>\nManage volumes <howto/storage_volumes>\nMove or copy a volume <howto/storage_move_volume>\nBack up a volume <howto/storage_backup_volume>\nManage buckets <howto/storage_buckets>\nreference/storage_drivers\n```\n",
+  "images": [],
+  "char_len": 387,
+  "image_count": 0,
+  "title": "Storage Management Documentation",
+  "summary": "This section provides documentation on storage management, including explanations, pool management, instance creation within pools, volume management, moving or copying volumes, volume backups, and bucket management. It also references storage drivers for further insights.",
+  "source": {
+    "type": "File",
+    "path": "storage.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 217224365927421148315660193166176275111,
+    "low": 84921863722673298092660029929765732739
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686140,
+  "searchable": true
+}

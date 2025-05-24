@@ -1,0 +1,15 @@
+<|schema|>
+
+{ title: str, summary: str { len_min: {{min_summary_len}}, len_max: {{max_summary_len}} } }
+
+<|system|>
+
+Your job is to title and summarize a file. Since the file is too big, I've splitted the file into {{chunks|length}} chunks, and gave title and summary to each chunk. You'll be given the {{chunks|length}} titles and summaries. Read them and give me a title and a summary that explains the entire file.
+
+Give me your response in a json object, which has 2 fields: "title" and "summary". Both have string types.
+
+<|user|>
+
+{{data|safe}}
+
+<|assistant|>

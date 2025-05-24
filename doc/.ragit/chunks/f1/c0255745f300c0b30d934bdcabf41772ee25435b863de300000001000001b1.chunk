@@ -1,0 +1,26 @@
+
+{
+  "data": "(incus-server)=\n# Incus server\n\n```{toctree}\n:maxdepth: 1\n\nMigrating from LXD </howto/server_migrate_lxd>\nConfigure the server <howto/server_configure>\n/server_config\nSystem settings <reference/server_settings>\nBackups <backup>\nPerformance tuning <explanation/performance_tuning>\nBenchmarking <howto/benchmark_performance>\nMonitor metrics <metrics>\nRecover instances <howto/disaster_recovery>\nDatabase </database>\n/architectures\n```\n",
+  "images": [],
+  "char_len": 433,
+  "image_count": 0,
+  "title": "Incus Server Documentation Overview",
+  "summary": "This section of the Incus server documentation provides a structured table of contents for various server-related topics. It includes guides on migrating from LXD, configuring the server, and handling system settings. Additionally, it covers backups, performance tuning, benchmarking, monitoring metrics, recovering instances, and database management, along with an overview of different server architectures.",
+  "source": {
+    "type": "File",
+    "path": "server.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 321341625344657124333814570754612392983,
+    "low": 152768513957579346259477689162142843313
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684247,
+  "searchable": true
+}

@@ -1,0 +1,4 @@
+{
+  "extracted_text": "Add data source\nChoose a data source type\nFilter by name or type\nCancel\nTime series databases\nPrometheus\nOpen source time series database & alerting\nCore\nGraphite\nOpen source time series database\nCore\nInfluxDB\nOpen source time series database\nCore",
+  "explanation": "The image shows a user interface for adding a data source in a software application, likely a tool like Grafana. The section lists available time series databases, including Prometheus, Graphite, and InfluxDB. Each option is marked as 'Core', indicating essential or built-in integrations. The interface includes a search bar and a 'Cancel' button."
+}

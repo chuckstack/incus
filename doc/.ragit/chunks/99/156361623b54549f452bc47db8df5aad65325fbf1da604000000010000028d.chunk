@@ -1,0 +1,26 @@
+
+{
+  "data": "(instances)=\n# Instances\n\n```{toctree}\n:titlesonly:\n\nexplanation/instances.md\nCreate instances <howto/instances_create.md>\nManage instances <howto/instances_manage.md>\nConfigure instances <howto/instances_configure.md>\nBack up instances <howto/instances_backup.md>\nUse profiles <profiles.md>\nUse cloud-init <cloud-init>\nRun commands <instance-exec.md>\nAccess the console <howto/instances_console.md>\nAccess files <howto/instances_access_files.md>\nAdd a routed NIC to a VM </howto/instances_routed_nic_vm.md>\nTroubleshoot errors <howto/instances_troubleshoot.md>\nexplanation/instance_config.md\nContainer environment <container-environment>\nmigration\n```\n",
+  "images": [],
+  "char_len": 653,
+  "image_count": 0,
+  "title": "Instances Overview and Management",
+  "summary": "This section lists various aspects and tasks related to managing instances. Topics covered include the creation, management, configuration, and backup of instances, as well as the use of profiles and cloud-init. It also provides information on running commands, accessing the console and files, adding a routed NIC to a VM, and troubleshooting errors. The section aims to provide comprehensive guidance on handling instance-related operations.",
+  "source": {
+    "type": "File",
+    "path": "instances.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 203482937263205141159131108443929763674,
+    "low": 230481886959805564752742335339728732813
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683453,
+  "searchable": true
+}

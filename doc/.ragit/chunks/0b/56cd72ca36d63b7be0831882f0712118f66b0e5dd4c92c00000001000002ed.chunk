@@ -1,0 +1,26 @@
+
+{
+  "data": "#!/bin/sh -eu\n\nif ! command -v mdl >/dev/null; then\n    echo \"Install mdl with 'snap install mdl' first.\"\n    exit 1\nfi\n\ntrap \"rm -rf .tmp/\" EXIT\n\n## Preprocessing\n\nfor fn in $(find doc/ -name '*.md'); do\n    mkdir -p $(dirname \".tmp/$fn\");\n    sed -E \"s/(\\(.+\\)=)/\\1\\n/\" $fn > .tmp/$fn;\ndone\n\nrm -rf .tmp/doc/reference/manpages/\n\nmdl .tmp/doc -sdoc/.sphinx/.markdownlint/style.rb -udoc/.sphinx/.markdownlint/rules.rb --ignore-front-matter > .tmp/errors.txt || true\n\n## Postprocessing\n\nsed -i '/^$/,$d' .tmp/errors.txt\n\nfiltered_errors=\"$(grep -vxFf doc/.sphinx/.markdownlint/exceptions.txt .tmp/errors.txt)\" || true\n\nif [ -z \"$filtered_errors\" ]; then\n    echo \"Passed!\"\n    exit 0\nelse\n    echo \"Failed!\"\n    echo \"$filtered_errors\"\n    exit 1\nfi\n",
+  "images": [],
+  "char_len": 749,
+  "image_count": 0,
+  "title": "Markdown Lint Script",
+  "summary": "This shell script checks for Markdown lint errors in a document directory using the mdl tool. It preprocesses files by inserting newlines into specific patterns, then applies mdl with specific style and rule files, ignoring certain aspects. Post-processing involves filtering errors against exceptions; if no filtered errors remain, the script outputs 'Passed!', otherwise it displays the errors and outputs 'Failed!'.",
+  "source": {
+    "type": "File",
+    "path": ".sphinx/.markdownlint/doc-lint.sh",
+    "index": 0
+  },
+  "uid": {
+    "high": 15072212472029610658449302111447445793,
+    "low": 33180948282098762669209149031864861421
+  },
+  "build_info": {
+    "file_reader_key": "plain_text_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686167,
+  "searchable": true
+}

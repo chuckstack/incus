@@ -1,0 +1,26 @@
+
+{
+  "data": "(network-external)=\n# External networks\n\n<!-- Include start external intro -->\nExternal networks use network interfaces that already exist.\nTherefore, Incus has limited possibility to control them, and Incus features like network ACLs, network forwards and network zones are not supported.\n\nThe main purpose for using external networks is to provide an uplink network through a parent interface.\nThis external network specifies the presets to use when connecting instances or other networks to a parent interface.\n\nIncus supports the following external network types:\n<!-- Include end external intro -->\n\n```{toctree}\n:maxdepth: 1\n/reference/network_macvlan\n/reference/network_sriov\n/reference/network_physical\n```\n",
+  "images": [],
+  "char_len": 715,
+  "image_count": 0,
+  "title": "External Networks in Incus",
+  "summary": "External networks in Incus rely on pre-existing network interfaces. Incus has limited control over these networks, meaning features like network ACLs, network forwards, and network zones aren't supported. These networks serve primarily to provide an uplink through a parent interface, outlining the presets for connecting instances or other networks. Supported external network types include MACVLAN, SR-IOV, and physical networks.",
+  "source": {
+    "type": "File",
+    "path": "reference/network_external.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 96346883983939338628289168422625040294,
+    "low": 30738370790349413658175357637768512203
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683313,
+  "searchable": true
+}

@@ -1,0 +1,26 @@
+
+{
+  "data": "(devices-unix-char)=\n# Type: `unix-char`\n\n```{note}\nThe `unix-char` device type is supported for containers.\nIt supports hotplugging.\n```\n\nUnix character devices make the specified character device appear as a device in the instance (under `/dev`).\nYou can read from the device and write to it.\n\n## Device options\n\n`unix-char` devices have the following device options:\n\n% Include content from [../config_options.txt](../config_options.txt)\n```{include} ../config_options.txt\n    :start-after: <!-- config group devices-unix-char-block start -->\n    :end-before: <!-- config group devices-unix-char-block end -->\n```\n\n(devices-unix-char-hotplugging)=\n## Hotplugging\n\n% Include content from [devices_unix_block.md](device_unix_block.md)\n```{include} devices_unix_block.md\n    :start-after: Hotplugging\n```\n",
+  "images": [],
+  "char_len": 805,
+  "image_count": 0,
+  "title": "Unix Character Devices in Containers",
+  "summary": "This section describes the `unix-char` device type, which is supported in container environments and allows for dynamic addition and removal (hotplugging). Unix character devices provide character-based device I/O within an instance under the `/dev` directory, permitting read and write operations. The document references configuration options from an external text and discusses hotplugging in detail.",
+  "source": {
+    "type": "File",
+    "path": "reference/devices_unix_char.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 223256997223829405265858696722134336285,
+    "low": 322780997122970848451178704457261122341
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683317,
+  "searchable": true
+}

@@ -1,0 +1,8 @@
+{
+  "enable_ii": true,
+  "enable_rag": true,
+  "max_retrieval": 5,
+  "max_summaries": 10,
+  "max_titles": 32,
+  "super_rerank": false
+}

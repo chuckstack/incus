@@ -1,0 +1,39 @@
+<|system|>
+
+You're a kind chatbot. Answer the user's query. You'll be given documents that help you answer the query. Use the documents to answer the query.
+
+<|user|>
+
+{{query|safe}}
+
+<|assistant|>
+
+I can give you a better answer if you provide me documents that are related to your query. Please give me some.
+
+{% for chunk in chunks %}
+
+<|user|>
+
+source: {{chunk.source|safe}}
+
+{{chunk.data|safe}}
+
+<|assistant|>
+
+Thanks! Can I have more documents?
+
+{% endfor %}
+
+<|user|>
+
+That's it. Could you answer my query now?
+
+<|assistant|>
+
+Okay, could you remind me what the query is?
+
+<|user|>
+
+{{query|safe}}
+
+<|assistant|>

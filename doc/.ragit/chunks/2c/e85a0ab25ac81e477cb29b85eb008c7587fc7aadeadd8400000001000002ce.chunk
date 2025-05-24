@@ -1,0 +1,26 @@
+
+{
+  "data": "(devices-unix-hotplug)=\n# Type: `unix-hotplug`\n\n```{note}\nThe `unix-hotplug` device type is supported for containers.\nIt supports hotplugging.\n```\n\nUnix hotplug devices make the requested Unix device appear as a device in the instance (under `/dev`).\nIf the device exists on the host system, you can read from it and write to it.\n\nThe implementation depends on `systemd-udev` to be run on the host.\n\n## Device options\n\n`unix-hotplug` devices have the following device options:\n\n% Include content from [../config_options.txt](../config_options.txt)\n```{include} ../config_options.txt\n    :start-after: <!-- config group devices-unix-hotplug start -->\n    :end-before: <!-- config group devices-unix-hotplug end -->\n```\n",
+  "images": [],
+  "char_len": 718,
+  "image_count": 0,
+  "title": "Unix Hotplug Device Type in Containers",
+  "summary": "The `unix-hotplug` device type is available for containers, supporting hotplugging. This allows a requested Unix device to appear under `/dev` within the container instance, enabling read and write operations if the device exists on the host system. The functionality relies on `systemd-udev` running on the host. Configuration options for `unix-hotplug` devices are detailed and included via an external configuration file.",
+  "source": {
+    "type": "File",
+    "path": "reference/devices_unix_hotplug.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 59692470950060412314382940442674790540,
+    "low": 156225756469618147239638516218747421390
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683255,
+  "searchable": true
+}

@@ -1,0 +1,26 @@
+
+{
+  "data": "all\nexclude_rule 'MD013'\nexclude_rule 'MD046'\nexclude_rule 'MD041'\nexclude_rule 'MD040'\nexclude_rule 'MD024'\nexclude_rule 'MD033'\nexclude_rule 'MD022'\nexclude_rule 'MD031'\nrule 'MD026', :punctuation => '.,;:!'\nrule 'MD003', :style => :atx\nrule 'MD007', :indent => 3\n",
+  "images": [],
+  "char_len": 266,
+  "image_count": 0,
+  "title": "Markdown Linting Configuration",
+  "summary": "This configuration sets rules for a markdown linter. Specific rules are excluded from linting, such as MD013, MD046, and several others. Additionally, parameters for certain rules are explicitly defined, such as punctuation for MD026, heading style for MD003, and list indentation for MD007.",
+  "source": {
+    "type": "File",
+    "path": ".sphinx/.markdownlint/style.rb",
+    "index": 0
+  },
+  "uid": {
+    "high": 174430908293367548902283409426701204101,
+    "low": 50321018703448275139319586977266794762
+  },
+  "build_info": {
+    "file_reader_key": "plain_text_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686165,
+  "searchable": true
+}

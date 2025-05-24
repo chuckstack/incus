@@ -1,0 +1,26 @@
+
+{
+  "data": "(security)=\n# Security\n\n```{toctree}\n:maxdepth: 1\n\nexplanation/security\nauthentication\nauthorization\nExpose Incus to the network <howto/server_expose>\n",
+  "images": [],
+  "char_len": 151,
+  "image_count": 0,
+  "title": "Security Overview",
+  "summary": "This document section focuses on security, providing links to various subsections such as explanation of security, authentication, authorization, and guidance on exposing Incus to the network.",
+  "source": {
+    "type": "File",
+    "path": "security.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 266647057019264613316642581888554750201,
+    "low": 5395970312717171726347760398449508503
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686160,
+  "searchable": true
+}

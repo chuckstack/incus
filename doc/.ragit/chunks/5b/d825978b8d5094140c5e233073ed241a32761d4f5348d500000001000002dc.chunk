@@ -1,0 +1,26 @@
+
+{
+  "data": ".tmp/doc/howto/import_machines_to_instances.md:106: MD034 Bare URL used\n.tmp/doc/howto/import_machines_to_instances.md:210: MD034 Bare URL used\n.tmp/doc/howto/network_forwards.md:52: MD004 Unordered list style\n.tmp/doc/howto/network_forwards.md:56: MD004 Unordered list style\n.tmp/doc/howto/network_forwards.md:53: MD005 Inconsistent indentation for list items at the same level\n.tmp/doc/howto/network_forwards.md:57: MD005 Inconsistent indentation for list items at the same level\n.tmp/doc/howto/network_forwards.md:53: MD032 Lists should be surrounded by blank lines\n.tmp/doc/howto/network_forwards.md:57: MD032 Lists should be surrounded by blank lines\n.tmp/doc/contributing.md:9: MD002 First header should be a top level header\n",
+  "images": [],
+  "char_len": 732,
+  "image_count": 0,
+  "title": "Markdown Linting Errors in Documentation",
+  "summary": "This text lists markdown linting errors found in various markdown files related to different 'how-to' guides and a contributing document. The errors mainly include the usage of bare URLs, unordered list styles, inconsistent indentation for list items, and issues like lists not being surrounded by blank lines and header hierarchy issues.",
+  "source": {
+    "type": "File",
+    "path": ".sphinx/.markdownlint/exceptions.txt",
+    "index": 0
+  },
+  "uid": {
+    "high": 122082046193667997394343705198774709540,
+    "low": 34821938379834498446158853341819437788
+  },
+  "build_info": {
+    "file_reader_key": "plain_text_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686170,
+  "searchable": true
+}

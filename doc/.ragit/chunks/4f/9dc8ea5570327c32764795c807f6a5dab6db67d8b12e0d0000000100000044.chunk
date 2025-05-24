@@ -1,0 +1,31 @@
+
+{
+  "data": "img_d6b95a9c354083ddf02151fb0a785210caa270b32d1393610000000200025dc9",
+  "images": [
+    {
+      "high": 285417203809739320285297195071288398352,
+      "low": 269347493065302838452535240961671978441
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Setting Up Canonical LXD UI",
+  "summary": "This guide provides steps to set up the Canonical LXD UI by generating a certificate, adding it to the LXD trust store, and importing the certificate into a browser. It includes instructions specific to Firefox, Chrome (Linux and Windows), and Edge. The process involves pasting a link into the browser's address bar, accessing certificate settings, and importing the certificate file. After setup, users can enjoy the LXD UI.",
+  "source": {
+    "type": "File",
+    "path": "images/ui_set_up_certificates.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 105828277321550944504987582414574843557,
+    "low": 290721151184631897066620315230766366788
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684058,
+  "searchable": true
+}

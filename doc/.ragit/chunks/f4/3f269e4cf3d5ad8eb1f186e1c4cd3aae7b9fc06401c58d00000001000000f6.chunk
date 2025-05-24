@@ -1,0 +1,26 @@
+
+{
+  "data": "furo\ngitpython\nlinkify-it-py\nlxd-sphinx-extensions\nmyst-parser\npyspelling\nsphinx\nsphinx-autobuild\nsphinx-copybutton\nsphinx-design\nsphinx-notfound-page\nsphinx-remove-toctrees\nsphinx-reredirects\nsphinx-tabs\nsphinxcontrib-jquery\nsphinxext-opengraph\n",
+  "images": [],
+  "char_len": 246,
+  "image_count": 0,
+  "title": "Python Libraries and Sphinx Extensions",
+  "summary": "This list comprises various Python libraries and Sphinx extensions used for documentation, parsing, and formatting. It includes tools like 'gitpython' for Git integration, 'linkify-it-py' for link parsing, and several Sphinx extensions such as 'sphinx-design' for enhanced design functionalities and 'sphinx-reredirects' for URL redirection capabilities. These tools and extensions enhance the capabilities of the Sphinx documentation generator by adding features like automatic rebuilds, design enhancements, and support for custom toctree management.",
+  "source": {
+    "type": "File",
+    "path": ".sphinx/requirements.txt",
+    "index": 0
+  },
+  "uid": {
+    "high": 324659528947037421932586214837237108026,
+    "low": 231927563926059971853064066329768624374
+  },
+  "build_info": {
+    "file_reader_key": "plain_text_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747686163,
+  "searchable": true
+}

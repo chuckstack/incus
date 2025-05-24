@@ -1,0 +1,26 @@
+
+{
+  "data": "(incus-client)=\n# Incus client\n\n```{toctree}\n:maxdepth: 1\n\nAdd remote servers <remotes>\nAdd command aliases <howto/incus_alias>\n/reference/manpages\n```\n",
+  "images": [],
+  "char_len": 152,
+  "image_count": 0,
+  "title": "Incus Client Overview",
+  "summary": "This section introduces the Incus client, providing the main topics and resources including adding remote servers and creating command aliases. It also includes links to relevant reference manpages to aid users in utilizing the Incus client effectively.",
+  "source": {
+    "type": "File",
+    "path": "client.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 260323141592336497351754299569229148883,
+    "low": 106739003880783126059206124122717290648
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683947,
+  "searchable": true
+}

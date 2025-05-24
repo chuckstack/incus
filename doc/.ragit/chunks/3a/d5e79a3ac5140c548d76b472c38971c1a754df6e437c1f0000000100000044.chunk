@@ -1,0 +1,31 @@
+
+{
+  "data": "img_535b34df4c950790e355f8488e39f898797396446af1d5e3000000020000a5c8",
+  "images": [
+    {
+      "high": 110799495041155343755844193668539480216,
+      "low": 161436749410759696734241668711483221448
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Grafana Import Dashboard Interface",
+  "summary": "The image depicts the interface for importing a dashboard in Grafana. Users can upload a dashboard JSON file or use an ID from Grafana.com. There are options to load JSON files directly or import via panel JSON input. Accepted file types are .json and .txt.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_dashboard_id.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 78205880442336893276759065034366355825,
+    "low": 257409838186275962361217330290224005188
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684234,
+  "searchable": true
+}

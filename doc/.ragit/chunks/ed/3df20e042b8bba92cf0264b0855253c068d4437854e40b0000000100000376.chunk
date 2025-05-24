@@ -1,0 +1,26 @@
+
+{
+  "data": "# Main API specification\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"../_static/swagger-ui/swagger-ui.css\" ></link>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"../_static/swagger-override.css\" ></link>\n<div id=\"swagger-ui\"></div>\n\n<script src=\"../_static/swagger-ui/swagger-ui-bundle.js\" charset=\"UTF-8\"> </script>\n<script src=\"../_static/swagger-ui/swagger-ui-standalone-preset.js\" charset=\"UTF-8\"> </script>\n<script>\nwindow.onload = function() {\n  // Begin Swagger UI call region\n  const ui = SwaggerUIBundle({\n    url: window.location.pathname +\"../rest-api.yaml\",\n    dom_id: '#swagger-ui',\n    deepLinking: true,\n    presets: [\n      SwaggerUIBundle.presets.apis,\n      SwaggerUIStandalonePreset\n    ],\n    plugins: [],\n    validatorUrl: \"none\",\n    defaultModelsExpandDepth: -1,\n    supportedSubmitMethods: []\n  })\n  // End Swagger UI call region\n\n  window.ui = ui\n}\n</script>\n",
+  "images": [],
+  "char_len": 886,
+  "image_count": 0,
+  "title": "API Documentation Interface Setup",
+  "summary": "This code sets up a Swagger UI interface for API documentation. It includes the necessary CSS and JavaScript files, specifies configurations for the Swagger UI such as the YAML file location, disables model expansion, and removes submission methods. The setup occurs on window load, rendering the API documentation within a specified HTML element with deep linking enabled.",
+  "source": {
+    "type": "File",
+    "path": "rest-api-spec.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 315348674563004628967628957708221502035,
+    "low": 255756079280355160130619938968640160630
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683252,
+  "searchable": true
+}

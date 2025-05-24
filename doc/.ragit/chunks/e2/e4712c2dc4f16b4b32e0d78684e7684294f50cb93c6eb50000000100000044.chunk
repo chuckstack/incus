@@ -1,0 +1,31 @@
+
+{
+  "data": "img_9894d1cc2c55e38497f58eadede5ea60daf9ef943277c253000000020001a120",
+  "images": [
+    {
+      "high": 202815370494243856829362731267379292768,
+      "low": 291069444236169187566666149110336299296
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Resource Limits Configuration",
+  "summary": "This interface shows the resource limits settings for a system. The exposed CPU limit is set to 2, with a memory limit override set to 8 GiB, out of a total of 47.9 GiB available. Memory swap is allowed for containers, while disk priority is set to 5. Additionally, the maximum number of processes for containers can be configured.",
+  "source": {
+    "type": "File",
+    "path": "images/UI/limits_memory_example.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 301591666143626206214101732341984847720,
+    "low": 88502477855286232096399206105583976516
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684224,
+  "searchable": true
+}

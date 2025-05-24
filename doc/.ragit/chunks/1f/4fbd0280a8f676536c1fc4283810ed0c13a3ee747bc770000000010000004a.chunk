@@ -1,0 +1,26 @@
+
+{
+  "data": "(manpages)=\n# Man pages\n\n```{toctree}\n:titlesonly:\n:glob:\n\nmanpages/*\n```\n",
+  "images": [],
+  "char_len": 74,
+  "image_count": 0,
+  "title": "Man Pages Documentation",
+  "summary": "This section provides a compilation of manual pages that are accessible for reference. The table of contents is generated automatically to include all manpages available in the specified directory, organized for ease of navigation.",
+  "source": {
+    "type": "File",
+    "path": "reference/manpages.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 41620092894846403316619956954833883373,
+    "low": 16052714514849126649033269498764853322
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683315,
+  "searchable": true
+}

@@ -1,0 +1,31 @@
+
+{
+  "data": "img_a81f46675608b497f05c61db01abeb25f521f635c22be985000000020003c196",
+  "images": [
+    {
+      "high": 223472692450279675970418170426144058149,
+      "low": 325837198495584328220500262455609639318
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Project Resource Usage Overview",
+  "summary": "The dashboard provides an overview of a project's resource usage, including CPU, memory, disk, and network statistics. The top charts display the top 5 users for CPU, memory, rootfs, network TX/RX traffic, and packet usage. Disk read and write operations are shown alongside network data transfer volumes. Below are time-series graphs depicting CPU and memory usage trends over time, with system and user CPU usage as well as different categories of memory usage such as RAM total, used, cache, free, and SWAP.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_resources.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 202279253167789121295025630970888327451,
+    "low": 237450988561205052865437343470996947012
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684198,
+  "searchable": true
+}

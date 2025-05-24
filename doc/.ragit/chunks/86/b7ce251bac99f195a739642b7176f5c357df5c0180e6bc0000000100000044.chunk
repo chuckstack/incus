@@ -1,0 +1,31 @@
+
+{
+  "data": "img_0f18e8e80376b046060c55b612d4366554b8fad8c70189940000000200014141",
+  "images": [
+    {
+      "high": 20067758962412265157893964451053581925,
+      "low": 112615622045176733180865870770844287297
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Importing Dashboard in Grafana",
+  "summary": "The image shows the process of importing a dashboard into Grafana from Grafana.com. Published by 'stgraber' and last updated on 2023-10-06, the dashboard is named 'Incus' and is placed in the 'General' folder. A unique identifier (UID) is assigned for consistent access, and the Prometheus instance selected is 'prometheus01'.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_dashboard_select_datasource.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 179070922876675723181689935829193029365,
+    "low": 259655719271549007981759092261566545988
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684145,
+  "searchable": true
+}

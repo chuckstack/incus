@@ -1,0 +1,26 @@
+
+{
+  "data": "The Markdown files in this directory are generated automatically\nfrom the man pages. They can therefore not be modified, and they\nshould not be added to Git.\n",
+  "images": [],
+  "char_len": 158,
+  "image_count": 0,
+  "title": "README for Automatically Generated Markdown Files",
+  "summary": "This text explains that the Markdown files in the directory are automatically generated from man pages. As a result, these files should not be modified or added to Git.",
+  "source": {
+    "type": "File",
+    "path": "reference/manpages/readme.txt",
+    "index": 0
+  },
+  "uid": {
+    "high": 52968767810450357073614956974370569620,
+    "low": 309385972287504202080412171557218025630
+  },
+  "build_info": {
+    "file_reader_key": "plain_text_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683270,
+  "searchable": true
+}

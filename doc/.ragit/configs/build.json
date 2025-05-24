@@ -1,0 +1,10 @@
+{
+  "chunk_size": 4000,
+  "slide_len": 1000,
+  "image_size": 2000,
+  "min_summary_len": 200,
+  "max_summary_len": 1000,
+  "strict_file_reader": false,
+  "compression_threshold": 2048,
+  "compression_level": 3
+}

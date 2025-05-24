@@ -1,0 +1,31 @@
+
+{
+  "data": "img_ed968e14f96a754f8553a9d39ffc7b145bac6a3923efe864000000020000a5ae",
+  "images": [
+    {
+      "high": 315808761293722722411141359649418935060,
+      "low": 121854977138640591224819276010135528878
+    }
+  ],
+  "char_len": 0,
+  "image_count": 1,
+  "title": "Configuration: Add Data Source",
+  "summary": "The interface shows a configuration screen for adding data sources within an organization named 'Main Org.' No data sources are currently defined, and there is an option to add a new data source. A tip suggests that data sources can also be defined through configuration files.",
+  "source": {
+    "type": "File",
+    "path": "images/grafana_add_datasource.png",
+    "index": 0
+  },
+  "uid": {
+    "high": 256912728652117414589815078742129363907,
+    "low": 325039722589008540719363120307657244740
+  },
+  "build_info": {
+    "file_reader_key": "image_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747684228,
+  "searchable": true
+}

@@ -1,0 +1,26 @@
+
+{
+  "data": "# Index\n\n<!-- Placeholder page required to add the automatically generated config-options page to the ToC. -->\n<!-- To update content on that page, edit .sphinx/_templates/domainindex.html. -->\n",
+  "images": [],
+  "char_len": 194,
+  "image_count": 0,
+  "title": "Placeholder for Index Page",
+  "summary": "This text serves as a placeholder for an automatically generated configuration options page in the Table of Contents (ToC). Any updates to the page should be made by editing the specified HTML template file, domainindex.html.",
+  "source": {
+    "type": "File",
+    "path": "config-options.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 298195783631982447251300010947579287098,
+    "low": 113380408598645619237682936372357234882
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683984,
+  "searchable": true
+}

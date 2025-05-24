@@ -1,0 +1,26 @@
+
+{
+  "data": "# External resources\n\n```{toctree}\n:maxdepth: 1\n\nProject repository <https://github.com/lxc/incus>\nImage server <https://images.linuxcontainers.org>\nThird party tools </third_party>\n```\n",
+  "images": [],
+  "char_len": 186,
+  "image_count": 0,
+  "title": "External Resources for Linux Containers",
+  "summary": "This section provides links to external resources relevant to Linux Containers. It includes a link to the project repository on GitHub, an image server for Linux containers, and third-party tools.",
+  "source": {
+    "type": "File",
+    "path": "external_resources.md",
+    "index": 0
+  },
+  "uid": {
+    "high": 287429291232021686177425242933106729161,
+    "low": 319265921368531826671255759805952819386
+  },
+  "build_info": {
+    "file_reader_key": "markdown_reader_v0",
+    "prompt_hash": "02a52b74748e0a06451c8049e3bcf3b8db0bfba88366ec3c0227cf8c11a7f9c2",
+    "model": "gpt-4o",
+    "ragit_version": "0.3.5"
+  },
+  "timestamp": 1747683430,
+  "searchable": true
+}
