@@ -40,3 +40,6 @@ doc/__pycache__
 
 # For JetBrains IDEs
 .idea
+
+# ragit generated files
+doc/.ragit/usages.json
